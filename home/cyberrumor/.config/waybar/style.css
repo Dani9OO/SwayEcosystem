@@ -1,71 +1,66 @@
-/* use the below line for opaque waybar */
-/* @import url("../../.cache/wal/colors-waybar.css"); */
-
-/* use the below line for semi-transparent waybar */
 @import url("../../.cache/wal/colors-custom-gtk3.css");
-
-/* get your icons from the link below */
-/* https://aur.archlinux.org/packages/ttf-material-design-icons-git/ */
-
 * {
     border: none;
     border-radius: 0;
-    font-family: Ubuntu Mono, Material Design Icons;
-    font-size: medium;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-size: 16px;
     min-height: 0;
 }
+
 window#waybar {
-    background: @background;
+    background: rgba(43, 48, 59, 0.7);
+    border-bottom: 6px solid transparent;
     color: @foreground;
 }
+
 #workspaces button {
-    padding: 0 10px;
-    background: transparent;
+    padding: 0 5px;
+    background: rgba(43, 48, 59, 0.8);
     color: @foreground;
+    border-bottom: 3px solid transparent;
 }
-#workspaces button:hover {
-    box-shadow: inherit;
-    text-shadow: inherit;
-}
+
 #workspaces button.focused {
-    background: @foreground;
-    color: @background
+    background: rgba(100, 114, 125, 0.2);
+    border-bottom: 3px solid @color15;
 }
-#mode, #clock, #memory, #temperature, #network, #pulseaudio, #pulseaudio.muted, #pulseaudio.mic, #battery, #battery.charging {
-    padding: 0 10px;
-    margin: 0 5px;
+
+#mode {
     background: transparent;
+    border-bottom: 3px solid @color15;
+}
+
+#clock, #battery, #cpu, #memory, #network, #pulseaudio, #custom-spotify, #tray, #mode, #custom-temp, #custom-root, #custom-home, #custom-backup, #custom-scratch, #custom-main {
+    padding: 0 6px;
+    margin: 0 3px;
+}
+
+#clock {
     background-color: transparent;
+    border-bottom: 5px solid @color1;
     color: @foreground;
 }
-#mode {
-}
-#memory {
-}
-#temperature {
-}
-#network {
-}
-#clock {
-}
-#pulseaudio {
-}
-#pulseaudio.muted {
-}
-#pulseaudio.mic {
-}
+
 #battery {
+    background-color: #ffffff;
+    color: black;
 }
+
 #battery.charging {
+    color: white;
+    background-color: #26A65B;
 }
+
 @keyframes blink {
     to {
-        color: @background;
+        background-color: #ffffff;
+        color: black;
     }
 }
+
 #battery.warning:not(.charging) {
-    background: transparent;
-    color: @foreground;
+    background: #f53c3c;
+    color: white;
     animation-name: blink;
     animation-duration: 0.5s;
     animation-timing-function: linear;
@@ -73,4 +68,76 @@ window#waybar {
     animation-direction: alternate;
 }
 
+#cpu {
+    background: transparent;
+    border-bottom: 1px solid @color5;
+    color: @foreground;
+}
 
+#memory {
+    background: transparent;
+    border-bottom: 1px solid @color7;
+    color: @foreground;
+}
+
+#network {
+    background: transparent;
+    border-bottom: 1px solid @color16;
+    color: @foreground
+}
+
+#network.disconnected {
+    background: transparent;
+    color: crimson;
+}
+
+#pulseaudio {
+    background: transparent;
+    border-bottom: 1px solid @color15;
+    color: @foreground;
+}
+
+#pulseaudio.muted {
+    background: #90b1b1;
+    color: #2a5c45;
+}
+
+#custom-spotify {
+    background: #66cc99;
+    color: #2a5c45;
+}
+
+#tray {
+    background-color: transparent;
+    border-bottom: 1px solid @color15;
+}
+
+#custom-root { 
+    background: transparent;
+    border-bottom: 1px solid @color9;
+}
+
+#custom-temp {
+    background: transparent;
+    border-bottom: 1px solid @color5;
+}
+
+#custom-home { 
+    background: transparent;
+    border-bottom: 1px solid @color9;
+}
+
+#custom-main { 
+    background: transparent;
+    border-bottom: 1px solid @color10;
+}
+
+#custom-backup { 
+    background: transparent;
+    border-bottom: 1px solid @color10;
+}
+
+#custom-scratch { 
+    background: transparent;
+    border-bottom: 1px solid @color11;
+}

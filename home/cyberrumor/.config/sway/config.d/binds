@@ -27,9 +27,9 @@ bindsym XF86AudioRaiseVolume exec volumeup
 bindsym XF86AudioLowerVolume exec volumedown
 bindsym XF86AudioMute exec audiomute
 bindsym XF86AudioMicMute exec pactl set-source-mute @DEFAULT_SOURCE@ toggle
-bindsym XF86MonBrightnessUp exec intel_backlight_up
-bindsym XF86MonBrightnessDown exec intel_backlight_down
-bindsym --release Print exec grim /home/cyberrumor/Pictures/screenshot.png
+# bindsym XF86MonBrightnessUp exec intel_backlight_up
+# bindsym XF86MonBrightnessDown exec intel_backlight_down
+bindsym --release Print exec grim /home/dani9oo/Pictures/screenshot.png
 bindsym $mod4+l exec 'grim /tmp/screenshot.png && \
 		convert /tmp/screenshot.png -blur 0x7 /tmp/blurshot.png && \
 		rm /tmp/screenshot.png && \
