@@ -4,6 +4,10 @@ This is a fork of [SwayEcosystem](https://github.com/cyberrumor/SwayEcosystem), 
 wpgtk instead of just wal to be able to theme GTK windows as well as
 the icons to the color of a selected background
 
+<img src="/home/dani9oo/screenshot.png">
+
+<img src="/home/dani9oo/screenshot1.png">
+
 Some other changes include
 --------------------------------------------------
 - Including stuff from [Numenra's Dotfiles](https://gitlab.com/numenra/dotfiles) such as
