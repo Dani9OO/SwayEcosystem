@@ -9,7 +9,7 @@
 . ~/.bash_functions
 
 # Import pywal colors
-(cat ~/.cache/wal/sequences &)
+(cat ~/.config/wpg/sequences &)
 
 # Set ls colors
 alias ls='ls --color=auto'
