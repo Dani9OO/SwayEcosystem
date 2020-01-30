@@ -22,6 +22,6 @@ You'll first need to clone this repository, after that, thanks to the awesome jo
 - sudo sh RootSetup.sh
 - sh UserSetup.sh
 
-I'd highly recommend you to edit .config/sway/input so it matches your input devices accordingly.
+I'd highly recommend you to edit .config/sway/config.d/input so it matches your input devices accordingly.
 
 That's it!, you're done 
