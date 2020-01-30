@@ -9,4 +9,10 @@ input "1739:32552:SYN3000:00_06CB:7F28_Touchpad" {
    middle_emulation enabled
 }
 
+input "1:1:AT_Translated_Set_2_keyboard" {
+   xkb_layout us
+   xkb_variant altgr-intl
+   xkb_options caps:escape,compose:menu,level3:ralt_switch
+}
+
 input * xkb_numlock enable
