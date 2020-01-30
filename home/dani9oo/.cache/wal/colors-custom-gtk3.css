@@ -1,0 +1,54 @@
+@define-color backgroundFlat rgb(15,20,25);
+@define-color background rgba(15,20,25,0.65);
+
+@define-color foreground rgb(244,255,255);
+@define-color foregroundTrans rgba(244,255,255,0.65);
+
+@define-color color0Flat rgb(15,20,25);
+@define-color color0 rgba(15,20,25,0.65);
+
+@define-color color1Flat rgb(145,175,171);
+@define-color color1 rgba(145,175,171,0.65);
+
+@define-color color2Flat rgb(100,157,164);
+@define-color color2 rgba(100,157,164,0.65);
+
+@define-color color3Flat rgb(142,137,116);
+@define-color color3 rgba(142,137,116,0.65);
+
+@define-color color4Flat rgb(59,120,132);
+@define-color color4 rgba(59,120,132,0.65);
+
+@define-color color5Flat rgb(165,192,187);
+@define-color color5 rgba(165,192,187,0.65);
+
+@define-color color6Flat rgb(88,168,182);
+@define-color color6 rgba(88,168,182,0.65);
+
+@define-color color7Flat rgb(204,220,222);
+@define-color color7 rgba(204,220,222,0.65);
+
+@define-color color8Flat rgb(33,44,56);
+@define-color color8 rgba(33,44,56,0.65);
+
+@define-color color9Flat rgb(167,248,237);
+@define-color color9 rgba(167,248,237,0.65);
+
+@define-color color10Flat rgb(112,217,230);
+@define-color color10 rgba(112,217,230,0.65);
+
+@define-color color11Flat rgb(201,188,134);
+@define-color color11 rgba(201,188,134,0.65);
+
+@define-color color12Flat rgb(64,164,184);
+@define-color color12 rgba(64,164,184,0.65);
+
+@define-color color13Flat rgb(191,255,255);
+@define-color color13 rgba(191,255,255,0.65);
+
+@define-color color14Flat rgb(96,230,254);
+@define-color color14 rgba(96,230,254,0.65);
+
+@define-color color15Flat rgb(244,255,255);
+@define-color color15 rgba(244,255,255,0.65);
+
