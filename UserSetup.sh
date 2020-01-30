@@ -11,6 +11,11 @@ git clone https://aur.archlinux.org/ttf-font-awesome-4.git
 cd ttf-font-awesome-4
 makepkg -sirc
 echo 'Installing ttf-font-awesome-4...'
+echo 'Cloning nm-applet from the AUR...'
+git clone https://aur.archlinux.org/network-manager-applet-indicator.git 
+cd network-manager-applet-indicator
+makepkg -sirc
+echo 'Installing nm-applet...'
 echo 'Copying user configuration files to your user folder.'
 cp -r home/dani9oo/* ~/
 cp -r home/dani9oo/.* ~/
