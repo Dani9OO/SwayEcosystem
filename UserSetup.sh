@@ -1,5 +1,16 @@
 echo 'Updating user directories so the copy goes smooth.'
 xdg-user-dirs-update
+echo 'Cloning wpgtk-git from the AUR...'
+git clone https://aur.archlinux.org/wpgtk-git.git
+cd wpgtk-git
+echo 'Installing wpgtk-git...'
+makepkg -sirc
+cd ..
+echo 'Cloning ttf-font-awesome-4 from the AUR...'
+git clone https://aur.archlinux.org/ttf-font-awesome-4.git
+cd ttf-font-awesome-4
+makepkg -sirc
+echo 'Installing ttf-font-awesome-4...'
 echo 'Copying user configuration files to your user folder.'
 cp -r home/dani9oo/* ~/
 cp -r home/dani9oo/.* ~/
