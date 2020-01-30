@@ -15,9 +15,8 @@ echo 'Copying user configuration files to your user folder.'
 cp -r home/dani9oo/* ~/
 cp -r home/dani9oo/.* ~/
 echo 'Cleaning up unused files'
-rm ~/makodemo.png
-rm ~/blurshot.png
-rm ~/waldemo.png
+rm ~/screenshot.png
+rm ~/screenshot1.png
 chmod +x ~/.config/mako/launch.sh
 echo 'Installing wpg components for window and icon theming'
 touch ~/.Xresources
