@@ -29,7 +29,7 @@ bindsym XF86AudioMute exec pactl set-sink-mute @DEFAULT_SINK@ toggle
 bindsym XF86AudioMicMute exec pactl set-source-mute @DEFAULT_SOURCE@ toggle
 bindsym XF86MonBrightnessUp exec xbacklight -inc 10
 bindsym XF86MonBrightnessDown exec xbacklight -dec 10
-bindsym --release Print exec grim /home/dani9oo/Pictures/screenshot.png
+bindsym --release Print exec grim ~/Pictures/screenshot.png
 bindsym $mod4+l exec 'grim /tmp/screenshot.png && \
 		convert /tmp/screenshot.png -blur 0x7 /tmp/blurshot.png && \
 		rm /tmp/screenshot.png && \
